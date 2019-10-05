@@ -54,7 +54,7 @@ Preguntas de Prework
     v. Dentro de la sección de Visual Design, describe lo siguiente:
 
     vi. 
-    
+
         a. Adaptability and Layout: 
         Las personas generalmente quieren poder usar sus aplicaciones favoritas en todos sus dispositivos y en cualquier contexto. En iOS, los elementos y diseños de la interfaz se pueden configurar para cambiar automáticamente la forma y el tamaño en diferentes dispositivos, durante la multitarea en iPad, en vista dividida, cuando se gira la pantalla y más. Es esencial que diseñe una interfaz adaptable que brinde una gran experiencia en cualquier entorno.
 
@@ -67,6 +67,7 @@ Preguntas de Prework
     vii. Dentro de la sección de Controls, describe lo siguiente:
 
     viii.   
+
             a. Buttons
             Los botones inician acciones específicas de la aplicación, tienen fondos personalizables y pueden incluir un título o un icono. El sistema proporciona varios estilos de botones predefinidos para la mayoría de los casos de uso. También puede diseñar botones totalmente personalizados.
 
@@ -74,16 +75,16 @@ Preguntas de Prework
             Una etiqueta describe un elemento de interfaz en pantalla o proporciona un mensaje corto. 
 
 5. Enlista tus 10 apps favoritas
-    > Preguntados 
-    > Rappi
-    > Netflix
-    > WhatsApp
-    > Didi
-    > Instagram
-    > Spotify 
-    > Duolingo
-    > Pokemon Go 
-    > Clash Royale
+    - Preguntados 
+    - Rappi
+    - Netflix
+    - WhatsApp
+    - Didi
+    - Instagram
+    - Spotify 
+    - Duolingo
+    - Pokemon Go 
+    - Clash Royale
 
 
 6. Enlista y describe los cuatro pilares de la programación orientada a objetos
