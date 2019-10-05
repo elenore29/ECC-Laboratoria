@@ -89,30 +89,28 @@ Preguntas de Prework
 
 6. Enlista y describe los cuatro pilares de la programación orientada a objetos
 
+    - Abstracción: Tomar algo del mundo real y omitir lo que no necesitamos, identificando las propiedades y características que cada uno tendrá y su estado y comportamiento. 
+
+    - Encapsulamiento: Propiedad de los objetos de esconder sus valores y propiedades y solo las hacen visibles cuando lo deciden. 
+
+    - Herencia: Se pueden heredar características y comportamientos además de tener las propias. 
+
+    - Polimorfismo: Objetos de diferente tipo que comparten alguna característica. 
+
 7. Dentro del paradigma de programación orientada a objetos:
-
-    Abstracción: Tomar algo del mundo real y omitir lo que no necesitamos, identificando las propiedades y características que cada uno tendrá y su estado y comportamiento. 
-
-    Encapsulamiento: Propiedad de los objetos de esconder sus valores y propiedades y solo las hacen visibles cuando lo deciden. 
-
-    Herencia: Se pueden heredar características y comportamientos además de tener las propias. 
-
-    Polimorfismo: Objetos de diferente tipo que comparten alguna característica. 
-
-    
 
 8.  
     i. ¿Qué es un objeto?
-    Un objeto es una unidad dentro de un programa de computadores que consta de un estado y de un comportamiento, que a su vez constan respectivamente de datos almacenados y de tareas realizables durante el tiempo de ejecución.
+    Objeto: Un objeto es una unidad dentro de un programa de computadores que consta de un estado y de un comportamiento, que a su vez constan respectivamente de datos almacenados y de tareas realizables durante el tiempo de ejecución.
 
     ii. ¿Qué es una clase?
-    Cada clase es un modelo que define un conjunto de variables -el estado, y métodos apropiados para operar con dichos datos -el comportamiento. Cada objeto creado a partir de la clase se denomina instancia de la clase. Las clases de objetos son un pilar fundamental de la programación orientada a objetos.
+    Clase: Cada clase es un modelo que define un conjunto de variables -el estado, y métodos apropiados para operar con dichos datos -el comportamiento. Cada objeto creado a partir de la clase se denomina instancia de la clase. Las clases de objetos son un pilar fundamental de la programación orientada a objetos.
 
     iii. ¿Qué es un método?
-    Los métodos son funciones que están asociadas con un tipo particular. Las clases, estructuras y enumeraciones pueden definir métodos de instancia, que encapsulan tareas y funcionalidades específicas para trabajar con una instancia de un tipo dado. Las clases, estructuras y enumeraciones también pueden definir métodos de tipo. 
+    Método: Los métodos son funciones que están asociadas con un tipo particular. Las clases, estructuras y enumeraciones pueden definir métodos de instancia, que encapsulan tareas y funcionalidades específicas para trabajar con una instancia de un tipo dado. Las clases, estructuras y enumeraciones también pueden definir métodos de tipo. 
 
     iv. ¿Qué es una propiedad?
-    Las propiedades asocian valores con una clase, estructura o enumeración particular. Las propiedades almacenadas almacenan valores constantes y variables como parte de una instancia, mientras que las propiedades calculadas calculan un valor. Las propiedades calculadas son proporcionadas por clases, estructuras y enumeraciones. Las propiedades almacenadas son proporcionadas solo por clases y estructuras.
+    Propiedad: Las propiedades asocian valores con una clase, estructura o enumeración particular. Las propiedades almacenadas almacenan valores constantes y variables como parte de una instancia, mientras que las propiedades calculadas calculan un valor. Las propiedades calculadas son proporcionadas por clases, estructuras y enumeraciones. Las propiedades almacenadas son proporcionadas solo por clases y estructuras.
 
 9. Investiga y describe la arquitectura de diseño MVC
 Es un patrón de diseño que resuelve múltiples escenarios. Asigna a los objetos de una aplicación uno de tres roles: modelo, vista o controlador. El patrón define no solo los roles que juegan los objetos en la aplicación, sino que define la forma en que los objetos se comunican entre sí. Cada uno de los tres tipos de objetos está separado de los demás por límites abstractos y se comunica con los objetos de los otros tipos a través de esos límites.
