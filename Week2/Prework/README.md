@@ -4,9 +4,13 @@ Preguntas de Prework
 1. Entra a https://www.hackingwithswift.com/sixty y en la página online.swiftplayground.run haz las siguientes secciones:
 
 2.  i. Complex Types
+
     ii. Operators and conditions
+
     iii. Looping
+
     iv. Functions
+    
     v. Structs
 
 3. Entra a https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/ y contesta lo siguiente:
@@ -35,7 +39,8 @@ Preguntas de Prework
 
     iii. Dentro de la sección de User Interaction, describe lo siguiente:
 
-    iv. a. Authentication: 
+    iv. 
+        a. Authentication: 
         Solicite a los usuarios que se autentiquen solo a cambio de valor, como personalizar la experiencia, acceder a funciones adicionales, comprar contenido o sincronizar datos. Si su aplicación requiere autenticación, use Iniciar sesión con Apple para ofrecer a las personas una forma simple y segura de iniciar sesión. Cuando admite Iniciar sesión con Apple, las personas obtienen una experiencia de inicio de sesión consistente en la que pueden confiar y la comodidad de no tener que recordar Múltiples cuentas y contraseñas.
 
         b. Data Entry: 
@@ -47,7 +52,8 @@ Preguntas de Prework
 
     v. Dentro de la sección de Visual Design, describe lo siguiente:
 
-    vi. a. Adaptability and Layout: 
+    vi. 
+        a. Adaptability and Layout: 
         Las personas generalmente quieren poder usar sus aplicaciones favoritas en todos sus dispositivos y en cualquier contexto. En iOS, los elementos y diseños de la interfaz se pueden configurar para cambiar automáticamente la forma y el tamaño en diferentes dispositivos, durante la multitarea en iPad, en vista dividida, cuando se gira la pantalla y más. Es esencial que diseñe una interfaz adaptable que brinde una gran experiencia en cualquier entorno.
 
         b. Branding
@@ -58,7 +64,8 @@ Preguntas de Prework
 
     vii. Dentro de la sección de Controls, describe lo siguiente:
 
-    viii.   a. Buttons
+    viii.   
+            a. Buttons
             Los botones inician acciones específicas de la aplicación, tienen fondos personalizables y pueden incluir un título o un icono. El sistema proporciona varios estilos de botones predefinidos para la mayoría de los casos de uso. También puede diseñar botones totalmente personalizados.
 
             b. Labels
@@ -91,7 +98,8 @@ Preguntas de Prework
 
     
 
-8.  i. ¿Qué es un objeto?
+8.  
+    i. ¿Qué es un objeto?
     Un objeto es una unidad dentro de un programa de computadores que consta de un estado y de un comportamiento, que a su vez constan respectivamente de datos almacenados y de tareas realizables durante el tiempo de ejecución.
 
     ii. ¿Qué es una clase?
