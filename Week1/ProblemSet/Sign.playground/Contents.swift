@@ -1,5 +1,9 @@
+
 import UIKit
-import GameplayKit
+
+enum GameState {
+    case start, win, lose, tie
+}
 
 enum Sign: String {
     case rock, paper, scissors
@@ -12,39 +16,38 @@ enum Sign: String {
             return "✋🏻"
         case .scissors:
             return "✌🏻"
-            
         }
     }
 
-
-//let rock = Sign.rock.simpleDescription
-//let paper = Sign.paper.simpleDescription
-//let scissors = Sign.scissors.simpleDescription
-
-func compare(computer: Sign) -> String {
+func compare(computer: Sign) -> GameState {
     if self == computer {
-        return "Empate"
+        return .tie
     }
     switch self {
     case .rock:
         if computer == .paper{
-            return "lose"
+            return .lose
         } else if computer == .scissors {
-            return "win"
+            return .win
         }
     case .paper:
         if computer == .scissors{
-            return "lose"
+            return .lose
         } else if computer == .rock {
-            return "win"
+            return .win
         }
     case .scissors:
         if computer == .paper{
-            return "win"
+            return .win
         } else if computer == .rock {
-            return "lose"
+            return .lose
         }
     }
-    return ""
+    return .start
 }
 }
+
+let computer = Sign.rock
+let user = Sign.paper
+
+print(user.compare(computer: computer))
