@@ -32,7 +32,7 @@ applicationWillEnterForeground: le permite saber que su aplicación se está mov
 
 applicationWillTerminate: le permite saber que su aplicación está siendo finalizada. Este método no se llama si su aplicación está suspendida.
 
-![Ciclo de vida](./mapa.png)
+![Ciclo de vida](./mapa.jpeg)
 
 ![Ciclo de vida](./esquema.jpeg)
 
