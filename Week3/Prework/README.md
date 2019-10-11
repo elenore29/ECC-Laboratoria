@@ -3,21 +3,20 @@
 Finalmente, investiga:
 - Ciclo de vida de una app y haz un esquema de todos los estados por los que pasa un app.
 
-Not running 
+Not running:
 La aplicación no se ha iniciado o se estaba ejecutando, pero el sistema la finalizó.
 
-Inactive
+Inactive:
 La aplicación se ejecuta en primer plano pero actualmente no recibe eventos. (Sin embargo, puede estar ejecutando otro código). Una aplicación generalmente permanece en este estado solo brevemente mientras pasa a un estado diferente.
 
-Active
+Active:
 La aplicación se está ejecutando en primer plano y está recibiendo eventos. Este es el modo normal para aplicaciones en primer plano.
 
-Background
+Background:
 La aplicación está en segundo plano y ejecuta código. La mayoría de las aplicaciones ingresan brevemente a este estado en su camino a ser suspendidas. Sin embargo, una aplicación que solicita un tiempo de ejecución adicional puede permanecer en este estado durante un período de tiempo. Además, una aplicación que se inicia directamente en segundo plano entra en este estado en lugar del estado inactivo. Para obtener información sobre cómo ejecutar el código en segundo plano, consulte Ejecución en segundo plano.
 
-Suspended
+Suspended:
 La aplicación está en segundo plano pero no está ejecutando código. El sistema mueve las aplicaciones a este estado automáticamente y no las notifica antes de hacerlo. Mientras está suspendida, una aplicación permanece en la memoria pero no ejecuta ningún código.
-
 
 application:willFinishLaunchingWithOptions: este método es la primera oportunidad de su aplicación para ejecutar código en el momento del lanzamiento.
 
@@ -37,7 +36,6 @@ applicationWillTerminate: le permite saber que su aplicación está siendo final
 
 ![Ciclo de vida](./esquema.jpeg)
 
-
 - Arquitectura Modelo Vista Controlador
 
 Modelos: contiene una representación de los datos que maneja el sistema, su lógica de negocio, y sus mecanismos de persistencia.
@@ -45,8 +43,6 @@ Modelos: contiene una representación de los datos que maneja el sistema, su ló
 Vistas: Interfaz de usuario, que compone la información que se envía al cliente y los mecanismos interacción con éste.
 
 Controladores: Actúa como intermediario entre el Modelo y la Vista, gestionando el flujo de información entre ellos y las transformaciones para adaptar los datos a las necesidades de cada uno.
-
-
 
 #Swift
 
@@ -70,7 +66,6 @@ La conversión de tipos en Swift se implementa con los operadores is y as. Estos
 - Guard
 Guard combina dos conceptos poderosos en Swift: desenvolvimiento opcional y cláusulas where. La primera nos permite evitar la pirámide de la fatalidad o su alternativa, la muy larga declaración if let. El último adjunta expresiones simples pero poderosas con la cláusula where para que podamos examinar aún más los resultados que estamos validando.
 
-
 #Storyboard - UI
 
 - Segues
@@ -78,7 +73,6 @@ Use segues para definir el flujo de la interfaz de su aplicación. Un segue defi
 
 - UINavigationController
 Un controlador de navegación es un controlador de vista de contenedor que administra uno o más controladores de vista secundarios en una interfaz de navegación. En este tipo de interfaz, solo se puede ver un controlador de vista secundario a la vez. Al seleccionar un elemento en el controlador de vista, se empuja un nuevo controlador de vista en pantalla utilizando una animación, ocultando así el controlador de vista anterior. Al tocar el botón Atrás en la barra de navegación en la parte superior de la interfaz, se elimina el controlador de vista superior, lo que revela el controlador de vista debajo.
-
 
 - UITabBarController
 
