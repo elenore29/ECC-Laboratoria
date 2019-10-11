@@ -33,8 +33,9 @@ applicationWillEnterForeground: le permite saber que su aplicación se está mov
 
 applicationWillTerminate: le permite saber que su aplicación está siendo finalizada. Este método no se llama si su aplicación está suspendida.
 
-![Texto alternativo](./esquema.jpeg)
-![Texto alternativo](./mapa.png)
+![Ciclo de vida](./mapa.png)
+
+![Ciclo de vida](./esquema.jpeg)
 
 
 - Arquitectura Modelo Vista Controlador
@@ -52,12 +53,10 @@ Controladores: Actúa como intermediario entre el Modelo y la Vista, gestionando
 - Optionals
 Un opcional en Swift es un tipo que puede contener un valor o ningún valor. Los opcionales se escriben agregando un ? A cualquier tipo:
 var middlename: String?
-
 Lo anterior significa que el segundo nombre puede ser una cadena o no contiene nada representado por el ?. Un opcional es un tipo de contenedor. Una cadena opcional es un contenedor que puede contener una cadena. Un Int opcional es un contenedor que puede contener un Int. Piense en un opcional como una especie de paquete. Antes de abrirlo (o "desenvolverlo" en el idioma de las opciones) no sabrá si contiene algo o nada. Es solo un valor opcional que se puede establecer en nulo.
 
 - Force unwrapping
 Los opcionales representan datos que pueden o no estar allí, pero a veces usted sabe con certeza que un valor no es nulo. En estos casos, Swift le permite hacer un force unwrapping: conviértalo de un tipo opcional a un tipo no opcional.
-
 Puede desenvolver su variable opcional con el operador "!" Pero es una forma de ajuste menos segura, debe asegurarse de que la variable contenga valor o no. Si no utiliza el método de desenvolvimiento forzado en el lugar correcto, su aplicación puede bloquearse.
 
 - Optional binding
@@ -66,7 +65,6 @@ Simplemente permite el uso del valor no opcional en el bloque de instrucciones, 
 
 - Type Casting
 La conversión de tipos es una forma de verificar el tipo de una instancia, o tratar esa instancia como una superclase o subclase diferente de cualquier otro lugar en su propia jerarquía de clases.
-
 La conversión de tipos en Swift se implementa con los operadores is y as. Estos dos operadores proporcionan una forma simple y expresiva de verificar el tipo de un valor o emitir un valor a un tipo diferente.
 
 - Guard
@@ -85,5 +83,4 @@ Un controlador de navegación es un controlador de vista de contenedor que admin
 - UITabBarController
 
 La interfaz de la barra de pestañas muestra pestañas en la parte inferior de la ventana para seleccionar entre los diferentes modos y para mostrar las vistas para ese modo.
-
 Cada pestaña de una interfaz de controlador de barra de pestañas está asociada con un controlador de vista personalizado. Cuando el usuario selecciona una pestaña específica, el controlador de la barra de pestañas muestra la vista raíz del controlador de vista correspondiente, reemplazando cualquier vista anterio. Las interfaces de la barra de pestañas se usan comúnmente para presentar diferentes tipos de información o para presentar la misma información usando un estilo de interfaz completamente diferente.
