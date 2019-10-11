@@ -33,8 +33,8 @@ applicationWillEnterForeground: le permite saber que su aplicación se está mov
 
 applicationWillTerminate: le permite saber que su aplicación está siendo finalizada. Este método no se llama si su aplicación está suspendida.
 
-![Texto alternativo](/esquema.jpeg)
-![Texto alternativo](/mapa.png)
+![Texto alternativo](./esquema.jpeg)
+![Texto alternativo](./mapa.png)
 
 
 - Arquitectura Modelo Vista Controlador
